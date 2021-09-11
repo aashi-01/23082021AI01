@@ -21,24 +21,28 @@ tkr.Entry(cal,textvariable = b).place(x=250,y=50)
 
 def oper1():
     print("First number is:",a.get())
+    print(" Operator is : "+")
     print("Second number is:",b.get())
     print(int(a.get())+int(b.get()))
     c.set(int(a.get())+int(b.get()))
 
 def oper2():
     print("First number is:",a.get())
+    print(" Operator is : "-")
     print("Second number is:",b.get())
     print(int(a.get())-int(b.get()))
     c.set(int(a.get())-int(b.get()))
 
 def oper3():
     print("First number is:",a.get())
+    print(" Operator is : "*")
     print("Second number is:",b.get())
     print(int(a.get())*int(b.get()))
     c.set(int(a.get())*int(b.get()))
 
 def oper4():
     print("First number is:",a.get())
+    print(" Operator is : "/")
     print("Second number is:",b.get())
     print(int(a.get())/int(b.get()))
     c.set(int(a.get())/int(b.get())) 
